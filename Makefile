@@ -88,10 +88,10 @@ ASM_OBJECT_FILES := $(patsubst $(SRC_DIR)%.s, $(BIN_DIR)%.o,$(wildcard $(SRC_DIR
 #-------------------------------------------------------------------------------|
 
 # default target makes the executable file
-all: $(BIN_DIR) $(EXECUTABLE)
+all: $(EXECUTABLE)
 
 # this assembles all .s source files into object files of the same name
-$(BIN_DIR)%.o: $(SRC_DIR)%.s
+$(BIN_DIR)%.o: $(SRC_DIR)%.s $(BIN_DIR)
 	$(ASSEMBLE) $(ASM_FLAGS) $@ $<
 
 # make the executable
