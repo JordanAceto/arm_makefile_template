@@ -1,4 +1,9 @@
 /*
+    THIS IS JUST AN EXAMPLE TO USE AS A "HELLO WORLD", DELETE THIS FILE WHEN 
+    YOU ARE SATISFIED THAT EVERYTHING WORKS!
+*/
+
+/*
 --|----------------------------------------------------------------------------|
 --| PUBLIC DEFINES
 --|----------------------------------------------------------------------------|
